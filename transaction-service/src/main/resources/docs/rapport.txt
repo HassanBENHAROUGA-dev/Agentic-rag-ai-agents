@@ -1,0 +1,51 @@
+RAPPORT D’ÉVALUATION D’UN PROJET D’ENTREPRISE
+Projet présenté par Monsieur Hassan Benharouga
+
+Thème :
+Reputation Computation Models from User-generated Content Using Aspect Based Sentiment Analysis
+
+Paris
+
+Document fictif destiné à un test de LLM.
+
+Monsieur Hassan Benharouga présente un projet d’entreprise intitulé « Reputation Computation Models from User-generated Content Using Aspect Based Sentiment Analysis ».
+
+L’objectif principal de ce projet est de développer des systèmes d’aide à la décision et de calcul de réputation qui analysent le contenu généré par les utilisateurs afin de fournir des informations statistiques sur le degré de satisfaction des clients envers des produits et des services.
+
+Après une introduction générale situant la problématique dans son contexte et présentant les contributions proposées, le rapport est structuré en cinq chapitres, suivis d’une conclusion générale.
+
+Le premier chapitre examine les approches existantes de traitement du langage naturel pour l’analyse des sentiments au niveau du document et l’analyse des sentiments basée sur les aspects. L’extraction des sentiments constitue un élément central des systèmes de calcul de réputation proposés. Ce chapitre présente également un état de l’art des modèles de calcul de réputation décrits dans la littérature.
+
+Le deuxième chapitre propose un système capable de générer une valeur numérique comprise entre 0 et 10 représentant la réputation d’une entité, comme un film, un produit ou un hôtel, à partir des opinions partagées sur Twitter. Le système utilise une technique de traitement du langage naturel pour convertir les emojis associés aux publications en mots, afin d’enrichir le sens des opinions textuelles. Cette approche vise à améliorer l’identification de la polarité des sentiments. Un modèle mathématique permet ensuite de produire un score numérique de réputation.
+
+Le troisième chapitre présente un système analysant les opinions extraites d’Amazon et d’eBay pour générer un score numérique de réputation. Le système convertit les notes numériques associées aux avis des utilisateurs en mots. Cette procédure vise à améliorer la précision de l’extraction des sentiments et, par conséquent, la pertinence du score de réputation obtenu.
+
+Le quatrième chapitre décrit un système qui exploite l’orientation et l’intensité des sentiments exprimés dans les opinions textuelles, ainsi que la crédibilité des utilisateurs et des avis, pour calculer un score reflétant la réputation d’une entité spécifique.
+
+Le cinquième chapitre présente un système de réputation multiplateforme intégrant le filtrage du spam, la popularité des opinions, leur date de publication et l’analyse des sentiments basée sur les aspects. Le système proposé comprend également un outil de visualisation permettant de consulter des informations détaillées sur la réputation de l’entité étudiée.
+
+Dans la conclusion générale, Monsieur Hassan Benharouga présente une synthèse des contributions du projet ainsi que les perspectives d’évolution. Le travail décrit explore des applications du traitement du langage naturel et de l’intelligence artificielle pour l’analyse de la satisfaction client et l’aide à la décision en entreprise.
+
+Plusieurs points méritent toutefois d’être approfondis :
+
+• L’utilisation de réseaux de neurones récurrents, notamment GRU et LSTM, ainsi que de modèles fondés sur les Transformers, comme BERT, constitue une approche pertinente pour la classification des sentiments. L’évaluation doit néanmoins tenir compte de la langue utilisée, du contexte, des particularités grammaticales et du domaine des données analysées.
+
+• Un score reposant uniquement sur le nombre d’opinions positives et négatives peut fournir une première indication de réputation. Il serait utile de prendre également en considération le volume total des avis, leur ancienneté, leur crédibilité, leur contexte et leur pondération.
+
+• L’intégration éventuelle de logique floue ou d’apprentissage par renforcement pourrait être étudiée, à condition de définir précisément leur utilité, les critères d’évaluation et les gains attendus par rapport au modèle initial.
+
+• La validation du système devrait s’appuyer sur des jeux de données représentatifs, une comparaison avec des méthodes de référence et des métriques adaptées à l’analyse des sentiments et au calcul de réputation.
+
+Conclusion :
+
+La méthodologie décrite et les fonctionnalités proposées constituent une base intéressante pour un projet d’entreprise consacré à l’analyse automatisée des opinions et à la mesure de la réputation.
+
+La problématique répond à des besoins concrets : comprendre la satisfaction des clients, identifier les points forts et les axes d’amélioration des produits ou services, et soutenir les décisions à partir du contenu publié par les utilisateurs.
+
+Les perspectives concernent notamment l’amélioration de la fiabilité des scores, l’analyse fine des aspects, la détection des avis frauduleux et la restitution des résultats au moyen de tableaux de bord.
+
+Dans le cadre de cet exemple fictif, l’évaluation est favorable à la poursuite du projet, sous réserve de valider les performances du système sur des données représentatives et de préciser les conditions de son utilisation en entreprise.
+
+Nom : Hassan Benharouga
+Email : hassan.benharouga@gmail.com
+Fait à Paris, le 29 septembre 2026.
